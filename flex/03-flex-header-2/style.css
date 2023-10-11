@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
 }
 
 .profile-image {
@@ -46,3 +49,18 @@ a {
 ul {
   list-style-type: none;
 }
+
+.left-container,
+.right-container,
+.links {
+  display: flex;
+  gap: 16px;
+  padding: 0px;
+  align-items: center;
+}
+
+/* ---different approach with margin auto to push, rather than two different, additional containers--- */
+/* .links {
+  display: flex;
+  margin-right: auto;
+} */
