@@ -73,3 +73,14 @@ button.cancel {
   display: flex;
   justify-content: space-between;
 }
+
+.top-down-container {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+}
